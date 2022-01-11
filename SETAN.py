@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# pashakun.com
+# wa.me/50557934681
 
 #Import module
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
@@ -57,17 +57,15 @@ def jalan(z):
 ##### LOGO #####
 logo = """\033[1;30m█████████
 \033[1;30m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
-\033[1;30m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
+\033[1;30m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗0.1 
 \033[1;30m█ \033[1;92m \033[1;92m_-_-- -_ --__\033[1;93m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
 \033[1;30m█\033[1;92m▲▲▲▲▲\033[1;92m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;96m
 \033[1;30m█████████      \033[1;92m«----------✧----------»
 \033[1;30m ██ ██
 \033[1;31m╔════════════════════════════════════════════╗
-\033[1;31m║\033[1;32m* \033[1;93mAuthor  \033[1;93m: \033[1;37m./OiBoy SecLinux         \033[1;31m       ║
-\033[1;31m║\033[1;32m* \033[1;93mWebsite \033[1;93m: \033[1;37m\033[4mhttps://pashakun.com\033[0m \033[1;31m           ║
-\033[1;31m║\033[1;32m* \033[1;93mGitHub  \033[1;93m: \033[1;37m\033[4mhttps://github.com/pashayogi\033[0m \033[1;31m   ║
-\033[1;31m║\033[1;32m* \033[1;93mTeam    \033[1;93m: \033[1;37m\033[4mINDONESIA CYBER ERROR SYSTEM\033[0m \033[1;31m   ║
-\033[1;31m╚════════════════════════════════════════════╝"""
+\033[1;31m║\033[1;32m* \033[1;93mAuthor  \033[1;93m: \033[1;37m./techd  m3t4s         \033[1;31m       ║
+\033[1;31m║\033[1;32m* \033[1;93mGitHub  \033[1;93m: \033[1;37m\033[4mhttps://github.com/dacmdtech\033[0m \033[1;31m   ║
+
 
 # titik #
 def tik():
@@ -109,9 +107,9 @@ def lisensi():
 def masuk():
 	os.system('reset')
 	print logo
-	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;32m Login dulu"
+	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;32m Login Normal"
 	print "\033[1;91m║--\033[1;91m> \033[1;95m2.\033[1;32m Login using token"
-	print "\033[1;91m║--\033[1;91m> \033[1;95m0.\033[1;31m Exit/keluar"
+	print "\033[1;91m║--\033[1;91m> \033[1;95m0.\033[1;31m Exit"
 	print "\033[1;91m║"
 	msuk = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
 	if msuk =="":
@@ -137,7 +135,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('reset')
 		print logo
-		print('\033[1;96m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
+		print('\033[1;96m[☆] \033[1;92mLOGIN CUENTA FACEBOOK \033[1;91m[☆]')
 		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
 		pwd = getpass.getpass('\033[1;95m[+] \033[1;93mPassword \033[1;93m:\033[1;95m ')
 		tik()
@@ -235,7 +233,7 @@ def menu():
 		keluar()
 	os.system("reset")
 	print logo
-	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m"
+	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m Name \033[1;91m: \033[1;92m"+nombre+"\033[1;97m"
 	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m ID   \033[1;91m: \033[1;92m"+id
 	print "\033[1;97m╚"+40*"═"
 	print "\033[1;94m║--\033[1;91m> \033[1;93m1.\033[1;95m User information"
@@ -978,7 +976,6 @@ def hack_pilih():
 		print "\033[1;91m[!] Wrong input"
 		hack_pilih()
 		
-##### MINI HF #####
 def mini():
 	os.system('reset')
 	try:
